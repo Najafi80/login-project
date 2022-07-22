@@ -1,0 +1,61 @@
+
+body{
+    background: rgb(42,76,255);
+    background: linear-gradient(218deg, rgba(42,76,255,1) 0%, rgba(130,153,255,1) 100%) fixed; 
+}
+form{
+    width:25% ;
+    background-color: white;
+    border-radius: 15px;
+    margin:9.69% auto;
+    height: 420px;
+    box-shadow: 10px 10px 5px -5px rgb(73, 94, 134,.7);
+}
+span{
+    color: rgb(0, 102, 255)
+}
+h1{
+    text-align: center;
+    margin: 10%;
+    padding-top: 10%;
+    font-size: 25px;
+}
+input{
+    width: 80%;
+    margin: 3% 10%;
+    border: none;
+    border-bottom: 1px solid rgb(42,76,255);
+    padding: 2%;
+}
+button{
+    width: 80%;
+    margin:0 10% 1% 10%;
+    border-radius: 0;
+    background: linear-gradient(218deg, rgba(42,76,255,1) 0%, rgba(130,153,255,1) 100%) ;
+    color: white;
+    height: 30px;
+    border-style: none;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+form a{
+    text-align: center;
+    display: block;
+    margin: 3%;
+    text-decoration: none;
+    color:rgb(124, 124, 124);
+}
+a.a2{
+    color: rgb(0, 110, 255);
+    
+}
+button:hover{
+    background: linear-gradient(218deg, rgba(130,153,255,1) 0%, rgba(42,76,255,1) 100%);
+    cursor: pointer;
+}
+input:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(7, 64, 252);
+}
+
+/* _____________________________________________________________________________________________________ */
